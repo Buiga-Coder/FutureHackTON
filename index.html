@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="fix">
+        <div id="fixed_header">
+            <div id="left_fixed_header">
+                <button id="openModalBtn"><img class="sss1" src="menyu_ja3b7v0p143m_32.png" alt=""></button>
+                 <img id="logo" src="CO-logo.png" alt="">
+            </div>
+            <div id="right_fixed_header">
+                <a href="events.html">К мероприятиям</a>
+                <div class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+                    <path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z"/>
+                  </svg>
+                </div>
+            </div>
+            
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                <div class="avatar-circle"><img src="images.png" alt=""></div>
+                <p>Личный кабинет</p>
+                <p>Достижения</p>
+                <p>Древо</p>
+                <p>Выйти</p>
+                </div>
+                </div>
+        </div>
+    <div id="slider">
+        <h1 class="title">Мероприятия</h1>
+<div class="slider" x-data="{start: true, end: false}">
+  <div class="slider__content" x-ref="slider" x-on:scroll.debounce="$refs.slider.scrollLeft == 0 ? start = true : start = false; Math.abs(($refs.slider.scrollWidth - $refs.slider.offsetWidth) - $refs.slider.scrollLeft) < 5 ? end = true : end = false;">
+    <div class="slider__item">
+      <img class="slider__image" src="Slider_Photo/9_maya_afisha.jpg" alt="Image">
+      <div class="slider__info">
+        <h2>This is a card</h2>
+      </div>
+    </div>
+    <div class="slider__item">
+      <img class="slider__image" src="https://images.unsplash.com/photo-1518640467707-6811f4a6ab73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzB8fGFic3RyYWN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="Image">
+      <div class="slider__info">
+        <h2>This is a card</h2>
+      </div>
+    </div>
+    <div class="slider__item">
+      <img class="slider__image" src="https://images.unsplash.com/photo-1608501821300-4f99e58bba77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAxfHxhYnN0cmFjdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" alt="Image">
+      <div class="slider__info">
+        <h2>This is a card</h2>
+      </div>
+    </div>
+    <div class="slider__item">
+      <img class="slider__image" src="https://images.unsplash.com/photo-1553356084-58ef4a67b2a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGFic3RyYWN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="Image">
+      <div class="slider__info">
+        <h2>This is a card</h2>
+      </div>
+    </div>
+    <div class="slider__item">
+      <img class="slider__image" src="https://images.unsplash.com/photo-1604871000636-074fa5117945?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fGFic3RyYWN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="Image">
+      <div class="slider__info">
+        <h2>This is a card</h2>
+      </div>
+    </div>
+    <div class="slider__item">
+      <img class="slider__image" src="https://images.unsplash.com/photo-1555448248-2571daf6344b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTh8fGFic3RyYWN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="Image">
+      <div class="slider__info">
+        <h2>This is a card</h2>
+      </div>
+    </div>
+    <div class="slider__item">
+      <img class="slider__image" src="https://images.unsplash.com/photo-1518640467707-6811f4a6ab73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzB8fGFic3RyYWN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="Image">
+      <div class="slider__info">
+        <h2>This is a card</h2>
+      </div>
+    </div>
+    <div class="slider__item">
+      <img class="slider__image" src="https://images.unsplash.com/photo-1608501821300-4f99e58bba77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAxfHxhYnN0cmFjdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" alt="Image">
+      <div class="slider__info">
+        <h2>This is a card</h2>
+      </div>
+    </div>
+    <div class="slider__item">
+      <img class="slider__image" src="https://images.unsplash.com/photo-1553356084-58ef4a67b2a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGFic3RyYWN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="Image">
+      <div class="slider__info">
+        <h2>This is a card</h2>
+      </div>
+    </div>
+    <div class="slider__item">
+      <img class="slider__image" src="https://images.unsplash.com/photo-1604871000636-074fa5117945?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fGFic3RyYWN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="Image">
+      <div class="slider__info">
+        <h2>This is a card</h2>
+      </div>
+    </div>
+    <div class="slider__item">
+      <img class="slider__image" src="https://images.unsplash.com/photo-1555448248-2571daf6344b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTh8fGFic3RyYWN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="Image">
+      <div class="slider__info">
+        <h2>This is a card</h2>
+      </div>
+    </div>
+  </div>
+
+</div>
+        </div>
+        <div id="news">
+            <div class="newsq">
+                <div class="left_news">
+                    <img class="news_img" src="fedorin.jpg" alt="">
+                </div>
+                <div class="right_news">
+                    <div class="top_r_news">
+                        <h2>Серж Дур-Дачник</h2>
+                    </div>
+                    <div class="down_r_news">
+                      Я в своём познании настолько преисполнился, что я как будто бы уже сто триллионов миллиардов лет проживаю на триллионах и триллионах таких же планет, понимаешь, как эта Земля.
+                    </div>
+                </div>
+            </div>
+            <div class="newsq">
+                <div class="left_news">
+                    <img class="news_img" src="dajbov.jpg" alt="">
+                </div>
+                <div class="right_news">
+                    <div class="top_r_news">
+                        <h2>Серж Дур-Дачник</h2>
+                    </div>
+                    <div class="down_r_news">
+                      Я в своём познании настолько преисполнился, что я как будто бы уже сто триллионов миллиардов лет проживаю на триллионах и триллионах таких же планет, понимаешь, как эта Земля
+                    </div>
+                </div>
+            </div>
+            <div class="newsq">
+                <div class="left_news">
+                    <img class="news_img" src="ilushechkin.jpg" alt="">
+                </div>
+                <div class="right_news">
+                    <div class="top_r_news">
+                        <h2>Серж Дур-Дачник</h2>
+                    </div>
+                    <div class="down_r_news">
+                      Я в своём познании настолько преисполнился, что я как будто бы уже сто триллионов миллиардов лет проживаю на триллионах и триллионах таких же планет, понимаешь, как эта Земля
+                </div>
+            </div>
+        </div>    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
